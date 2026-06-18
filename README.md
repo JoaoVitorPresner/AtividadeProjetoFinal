@@ -63,88 +63,147 @@ A aplicação possibilita o cadastro de atividades, consulta de exercícios via 
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto (Detalhada)
 
-```
+```bash
 src/
- ├── components/
- │    ├── Header.jsx
- │    ├── Footer.jsx
- │    ├── TreinoForm.jsx
+ ├── components/              # Componentes reutilizáveis da aplicação
+ │    ├── Header.jsx          # Cabeçalho da aplicação (navegação)
+ │    ├── Footer.jsx          # Rodapé da aplicação
+ │    ├── TreinoForm.jsx      # Formulário de cadastro de treinos
  │    └── Exercicios/
- │         └── CardExercicio.jsx
+ │         └── CardExercicio.jsx  # Card individual de exercício
  │
- ├── pages/
- │    ├── Cadastro.jsx
- │    ├── Exercicios.jsx
- │    └── Favoritos.jsx
+ ├── pages/                   # Páginas principais (rotas)
+ │    ├── Cadastro.jsx        # Página de cadastro de treinos
+ │    ├── Exercicios.jsx      # Página de listagem de exercícios
+ │    └── Favoritos.jsx       # Página de exercícios favoritos
  │
- ├── services/
- │    └── exerciciosService.js
+ ├── services/                # Comunicação com APIs externas
+ │    └── exerciciosService.js # Função para buscar exercícios via Fetch API
  │
- ├── utils/
- │    └── traducoes.js
+ ├── utils/                   # Funções auxiliares
+ │    └── traducoes.js        # Tradução de nomes de exercícios
  │
- ├── App.jsx
- └── main.jsx
+ ├── App.jsx                  # Configuração das rotas (React Router)
+ └── main.jsx                 # Ponto de entrada da aplicação
 ```
 
 ---
 
-⚙️ Dependências Utilizadas
+## ⚙️ Dependências Utilizadas
 
 Antes de rodar o projeto, é importante garantir que todas as dependências estão instaladas:
 
-📦 Principais bibliotecas
+### 📦 Principais bibliotecas
+
+```bash
 npm install react
 npm install react-dom
 npm install styled-components
 npm install react-router-dom
-📦 Dependências de desenvolvimento (caso use Vite)
+```
+
+### 📦 Dependências de desenvolvimento (caso use Vite)
+
+```bash
 npm install vite
-🚀 Como Executar o Projeto (Passo a Passo Completo)
-1️⃣ Clonar o repositório
+```
+
+---
+
+## 🚀 Como Executar o Projeto (Passo a Passo Completo)
+
+### 1️⃣ Clonar o repositório
+
+```bash
 git clone https://github.com/JoaoVitorPresner/AtividadeProjetoFinal.git
-2️⃣ Acessar a pasta do projeto
+```
+
+---
+
+### 2️⃣ Acessar a pasta do projeto
+
+```bash
 cd AtividadeProjetoFinal
-3️⃣ Instalar TODAS as dependências
+```
+
+---
+
+### 3️⃣ Instalar TODAS as dependências
+
+```bash
 npm install
+```
 
 Esse comando irá instalar automaticamente:
 
-React
-React DOM
-Styled Components
-React Router DOM
-Outras dependências do projeto
-4️⃣ Rodar o projeto em ambiente de desenvolvimento
+* React
+* React DOM
+* Styled Components
+* React Router DOM
+* Outras dependências do projeto
+
+---
+
+### 4️⃣ Rodar o projeto em ambiente de desenvolvimento
+
+```bash
 npm run dev
-5️⃣ Acessar no navegador
+```
+
+---
+
+### 5️⃣ Acessar no navegador
 
 Após rodar, o terminal mostrará algo como:
 
+```bash
 http://localhost:5173/
+```
 
 Abra esse endereço no navegador.
 
-📌 Requisitos para Rodar
+---
+
+## 🧪 Scripts Disponíveis
+
+```bash
+npm run dev       # Inicia o servidor de desenvolvimento
+npm run build     # Gera versão para produção
+npm run preview   # Visualiza versão de produção
+```
+
+---
+
+## 📌 Requisitos para Rodar
 
 Antes de tudo, você precisa ter instalado:
 
-Node.js (versão 16 ou superior)
-NPM (geralmente já vem com Node)
+* Node.js (versão 16 ou superior)
+* NPM (geralmente já vem com Node)
 
 Para verificar:
 
+```bash
 node -v
 npm -v
-💡 Observação Importante
+```
+
+---
+
+## 💡 Observação Importante
 
 Não é necessário instalar as dependências manualmente uma por uma, pois o comando:
 
+```bash
 npm install
+```
 
-já instala tudo automaticamente com base no arquivo package.json.
+já instala tudo automaticamente com base no arquivo `package.json`.
+
+---
+
 ## 🌐 API Utilizada
 
 * API de exercícios (Wger API)
