@@ -1,6 +1,6 @@
-# 💪 FitTrack - Sistema de Treinos
+# FitTrack - Sistema de Treinos
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 
 O **FitTrack** é uma aplicação web desenvolvida com **React** que permite ao usuário gerenciar seus treinos físicos de forma simples e eficiente.
 
@@ -8,7 +8,7 @@ A aplicação possibilita o cadastro de atividades, consulta de exercícios via 
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 ✔ Cadastro de treinos personalizados
 ✔ Listagem de exercícios via API externa
@@ -21,7 +21,7 @@ A aplicação possibilita o cadastro de atividades, consulta de exercícios via 
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * React
 * JavaScript (ES6+)
@@ -33,28 +33,28 @@ A aplicação possibilita o cadastro de atividades, consulta de exercícios via 
 
 ---
 
-## 🧠 Conceitos Aplicados
+## Conceitos Aplicados
 
-### 📐 Estrutura e Layout
+### Estrutura e Layout
 
 * Uso de HTML semântico
 * Grid Layout
 * Responsividade com Media Queries
 
-### 🎨 Estilo e Componentização
+### Estilo e Componentização
 
 * Styled Components
 * Componentização reutilizável
 * Organização em pastas
 
-### ⚙️ Interatividade e Lógica
+### Interatividade e Lógica
 
 * Manipulação de eventos (onClick, onChange)
 * Validação de formulários com JavaScript
 * Uso de LocalStorage para persistência de dados
 * Consumo de API externa com Fetch
 
-### ⚛️ React
+### React
 
 * Hooks: useState e useEffect
 * Props para comunicação entre componentes
@@ -63,7 +63,7 @@ A aplicação possibilita o cadastro de atividades, consulta de exercícios via 
 
 ---
 
-## 📂 Estrutura do Projeto (Completa e Detalhada)
+## Estrutura do Projeto (Completa e Detalhada)
 
 ```bash
 src/
@@ -101,11 +101,11 @@ src/
 
 ---
 
-## ⚙️ Dependências do Projeto
+## Dependências do Projeto
 
 O projeto utiliza as seguintes bibliotecas:
 
-### 📦 Dependências principais
+### Dependências principais
 
 ```bash
 npm install react
@@ -116,7 +116,7 @@ npm install react-router-dom
 
 ---
 
-### ⚡ Ambiente de desenvolvimento (Vite)
+### Ambiente de desenvolvimento (Vite)
 
 ```bash
 npm install vite
@@ -124,9 +124,9 @@ npm install vite
 
 ---
 
-## 🚀 Como Executar o Projeto (Passo a Passo Completo)
+## Como Executar o Projeto (Passo a Passo Completo)
 
-### 1️⃣ Clonar o repositório
+### Clonar o repositório
 
 ```bash
 git clone https://github.com/JoaoVitorPresner/AtividadeProjetoFinal.git
@@ -134,7 +134,7 @@ git clone https://github.com/JoaoVitorPresner/AtividadeProjetoFinal.git
 
 ---
 
-### 2️⃣ Entrar na pasta do projeto
+### Entrar na pasta do projeto
 
 ```bash
 cd AtividadeProjetoFinal
@@ -142,7 +142,7 @@ cd AtividadeProjetoFinal
 
 ---
 
-### 3️⃣ Instalar todas as dependências
+### Instalar todas as dependências
 
 ```bash
 npm install
@@ -158,7 +158,7 @@ Esse comando instala automaticamente:
 
 ---
 
-### 4️⃣ Rodar o projeto
+### Rodar o projeto
 
 ```bash
 npm run dev
@@ -166,7 +166,7 @@ npm run dev
 
 ---
 
-### 5️⃣ Acessar no navegador
+### Acessar no navegador
 
 Abra:
 
@@ -176,17 +176,7 @@ http://localhost:5173/
 
 ---
 
-## 🧪 Scripts Disponíveis
-
-```bash
-npm run dev       # Inicia o projeto
-npm run build     # Gera versão de produção
-npm run preview   # Visualiza build
-```
-
----
-
-## 💻 Requisitos do Sistema
+## Requisitos do Sistema
 
 Antes de rodar o projeto, você precisa ter instalado:
 
@@ -202,7 +192,7 @@ npm -v
 
 ---
 
-## 📌 Observações
+## Observações
 
 * O projeto utiliza **LocalStorage** para salvar treinos e favoritos
 * Os dados de exercícios são obtidos de uma **API externa**
@@ -212,14 +202,14 @@ npm -v
 ---
 
 
-## 🌐 API Utilizada
+## API Utilizada
 
 * API de exercícios (Wger API)
 * Dados consumidos em formato JSON
 
 ---
 
-## 💾 Armazenamento
+## Armazenamento
 
 Os dados são armazenados localmente utilizando:
 
@@ -227,7 +217,7 @@ Os dados são armazenados localmente utilizando:
 
 ---
 
-## 📱 Responsividade
+## Responsividade
 
 A aplicação se adapta a diferentes tamanhos de tela utilizando:
 
@@ -236,9 +226,9 @@ A aplicação se adapta a diferentes tamanhos de tela utilizando:
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
-Desenvolvido por **João Vitor**
+Desenvolvido por **João Vitor Barros Presner** e **Guilhermy martineli g brenny**
 Projeto acadêmico para avaliação final.
 
 ---
