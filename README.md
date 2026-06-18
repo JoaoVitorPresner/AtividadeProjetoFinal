@@ -63,7 +63,9 @@ A aplicação possibilita o cadastro de atividades, consulta de exercícios via 
 
 ---
 
-##📂 Estrutura do Projeto (Completa e Detalhada)
+## 📂 Estrutura do Projeto (Completa e Detalhada)
+
+```bash
 src/
  ├── components/                  # Componentes reutilizáveis da aplicação
  │    ├── Exercicios/
@@ -95,12 +97,15 @@ src/
  ├── App.jsx                      # Componente principal da aplicação
  ├── main.jsx                     # Ponto de entrada (ReactDOM)
  └── routes.jsx                   # Configuração de rotas (React Router)
+```
 
-## ⚙️ Dependências Utilizadas
+---
 
-Antes de rodar o projeto, é importante garantir que todas as dependências estão instaladas:
+## ⚙️ Dependências do Projeto
 
-### 📦 Principais bibliotecas
+O projeto utiliza as seguintes bibliotecas:
+
+### 📦 Dependências principais
 
 ```bash
 npm install react
@@ -109,7 +114,9 @@ npm install styled-components
 npm install react-router-dom
 ```
 
-### 📦 Dependências de desenvolvimento (caso use Vite)
+---
+
+### ⚡ Ambiente de desenvolvimento (Vite)
 
 ```bash
 npm install vite
@@ -127,7 +134,7 @@ git clone https://github.com/JoaoVitorPresner/AtividadeProjetoFinal.git
 
 ---
 
-### 2️⃣ Acessar a pasta do projeto
+### 2️⃣ Entrar na pasta do projeto
 
 ```bash
 cd AtividadeProjetoFinal
@@ -135,23 +142,23 @@ cd AtividadeProjetoFinal
 
 ---
 
-### 3️⃣ Instalar TODAS as dependências
+### 3️⃣ Instalar todas as dependências
 
 ```bash
 npm install
 ```
 
-Esse comando irá instalar automaticamente:
+Esse comando instala automaticamente:
 
 * React
 * React DOM
 * Styled Components
 * React Router DOM
-* Outras dependências do projeto
+* Outras dependências definidas no projeto
 
 ---
 
-### 4️⃣ Rodar o projeto em ambiente de desenvolvimento
+### 4️⃣ Rodar o projeto
 
 ```bash
 npm run dev
@@ -161,34 +168,32 @@ npm run dev
 
 ### 5️⃣ Acessar no navegador
 
-Após rodar, o terminal mostrará algo como:
+Abra:
 
 ```bash
 http://localhost:5173/
 ```
-
-Abra esse endereço no navegador.
 
 ---
 
 ## 🧪 Scripts Disponíveis
 
 ```bash
-npm run dev       # Inicia o servidor de desenvolvimento
-npm run build     # Gera versão para produção
-npm run preview   # Visualiza versão de produção
+npm run dev       # Inicia o projeto
+npm run build     # Gera versão de produção
+npm run preview   # Visualiza build
 ```
 
 ---
 
-## 📌 Requisitos para Rodar
+## 💻 Requisitos do Sistema
 
-Antes de tudo, você precisa ter instalado:
+Antes de rodar o projeto, você precisa ter instalado:
 
-* Node.js (versão 16 ou superior)
-* NPM (geralmente já vem com Node)
+* Node.js (versão 16+)
+* NPM
 
-Para verificar:
+Verifique com:
 
 ```bash
 node -v
@@ -197,17 +202,15 @@ npm -v
 
 ---
 
-## 💡 Observação Importante
+## 📌 Observações
 
-Não é necessário instalar as dependências manualmente uma por uma, pois o comando:
-
-```bash
-npm install
-```
-
-já instala tudo automaticamente com base no arquivo `package.json`.
+* O projeto utiliza **LocalStorage** para salvar treinos e favoritos
+* Os dados de exercícios são obtidos de uma **API externa**
+* A navegação é feita com **React Router**
+* A estilização é feita com **Styled Components**
 
 ---
+
 
 ## 🌐 API Utilizada
 
