@@ -41,8 +41,18 @@ export default function TreinoForm({ adicionarTreino }) {
   const [duracao, setDuracao] = useState("");
   const [data, setData] = useState("");
 
+  function validar(nome) {
+    if (!nome || nome.length < 3) {
+      alert("Nome inválido");
+      return false;
+    }
+    return true;
+  }
+
   function handleSubmit(e) {
     e.preventDefault();
+
+     if (!validar(nome)) return;
 
     if (nome.trim() === "") {
       alert("Digite o nome da atividade");
