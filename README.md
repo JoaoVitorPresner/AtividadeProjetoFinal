@@ -1,8 +1,8 @@
 # Sistema de Treinos
 
-Projeto desenvolvido em React para gerenciamento de treinos e exercícios.
+Projeto em React para gerenciamento de treinos.
 
 ## Funcionalidades
-- Cadastro de treinos
-- Favoritar exercícios
-- Integração com API
+- Exercícios
+- Favoritos
+- API de exercícios
