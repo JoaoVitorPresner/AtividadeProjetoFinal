@@ -1,2 +1,8 @@
-# AtividadeProjetoFinal
-Neste repositório está presente a Atividade Final da matéria PROGRAMAÇÃO FRONT END
+# Sistema de Treinos
+
+Projeto desenvolvido em React para gerenciamento de treinos e exercícios.
+
+## Funcionalidades
+- Cadastro de treinos
+- Favoritar exercícios
+- Integração com API
