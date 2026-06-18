@@ -1,8 +1,8 @@
-# FitTrack - Sistema de Treinos
+# Sistema de Gerenciamento de Treinos
 
 ## Sobre o Projeto
 
-O **FitTrack** é uma aplicação web desenvolvida com **React** que permite ao usuário gerenciar seus treinos físicos de forma simples e eficiente.
+O **Sistema de Gerenciamento de Treinos** é uma aplicação web desenvolvida com **React** que permite ao usuário gerenciar seus treinos físicos de forma simples e eficiente.
 
 A aplicação possibilita o cadastro de atividades, consulta de exercícios via API externa, sistema de favoritos e cálculo estimado de calorias.
 
