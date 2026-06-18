@@ -1,27 +1,157 @@
-<<<<<<< HEAD
-# Sistema de Treinos
+# 💪 FitTrack - Sistema de Treinos
 
-Projeto em React para gerenciamento de treinos.
+## 📌 Sobre o Projeto
 
-## Funcionalidades
-- Exercícios
-- Favoritos
-- API de exercícios
-=======
-# React + Vite
+O **FitTrack** é uma aplicação web desenvolvida com **React** que permite ao usuário gerenciar seus treinos físicos de forma simples e eficiente.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A aplicação possibilita o cadastro de atividades, consulta de exercícios via API externa, sistema de favoritos e cálculo estimado de calorias.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Funcionalidades
 
-## React Compiler
+✔ Cadastro de treinos personalizados
+✔ Listagem de exercícios via API externa
+✔ Sistema de busca de exercícios
+✔ Adição de exercícios aos favoritos
+✔ Cálculo automático de calorias
+✔ Armazenamento de dados no LocalStorage
+✔ Validação de formulários
+✔ Interface responsiva
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 23ab02b (primeira versão do sistema de treinos)
+* React
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Styled Components
+* React Router DOM
+* Fetch API
+
+---
+
+## 🧠 Conceitos Aplicados
+
+### 📐 Estrutura e Layout
+
+* Uso de HTML semântico
+* Grid Layout
+* Responsividade com Media Queries
+
+### 🎨 Estilo e Componentização
+
+* Styled Components
+* Componentização reutilizável
+* Organização em pastas
+
+### ⚙️ Interatividade e Lógica
+
+* Manipulação de eventos (onClick, onChange)
+* Validação de formulários com JavaScript
+* Uso de LocalStorage para persistência de dados
+* Consumo de API externa com Fetch
+
+### ⚛️ React
+
+* Hooks: useState e useEffect
+* Props para comunicação entre componentes
+* Componentes reutilizáveis
+* Rotas com React Router
+
+---
+
+## 📂 Estrutura do Projeto
+
+```
+src/
+ ├── components/
+ │    ├── Header.jsx
+ │    ├── Footer.jsx
+ │    ├── TreinoForm.jsx
+ │    └── Exercicios/
+ │         └── CardExercicio.jsx
+ │
+ ├── pages/
+ │    ├── Cadastro.jsx
+ │    ├── Exercicios.jsx
+ │    └── Favoritos.jsx
+ │
+ ├── services/
+ │    └── exerciciosService.js
+ │
+ ├── utils/
+ │    └── traducoes.js
+ │
+ ├── App.jsx
+ └── main.jsx
+```
+
+---
+
+## 📦 Como Executar o Projeto
+
+### 1️⃣ Clonar o repositório
+
+```bash
+git clone https://github.com/JoaoVitorPresner/AtividadeProjetoFinal.git
+```
+
+### 2️⃣ Acessar a pasta
+
+```bash
+cd AtividadeProjetoFinal
+```
+
+### 3️⃣ Instalar dependências
+
+```bash
+npm install
+```
+
+### 4️⃣ Rodar o projeto
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 API Utilizada
+
+* API de exercícios (Wger API)
+* Dados consumidos em formato JSON
+
+---
+
+## 💾 Armazenamento
+
+Os dados são armazenados localmente utilizando:
+
+* LocalStorage (treinos e favoritos)
+
+---
+
+## 📱 Responsividade
+
+A aplicação se adapta a diferentes tamanhos de tela utilizando:
+
+* Grid Layout
+* Media Queries
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **João Vitor**
+Projeto acadêmico para avaliação final.
+
+---
+
+## 📌 Observações
+
+Este projeto foi desenvolvido com foco em boas práticas de desenvolvimento front-end, incluindo organização de código, reutilização de componentes e aplicação de conceitos modernos do React.
+
+---
