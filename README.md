@@ -63,33 +63,38 @@ A aplicação possibilita o cadastro de atividades, consulta de exercícios via 
 
 ---
 
-## 📂 Estrutura do Projeto (Detalhada)
-
-```bash
+##📂 Estrutura do Projeto (Completa e Detalhada)
 src/
- ├── components/              # Componentes reutilizáveis da aplicação
- │    ├── Header.jsx          # Cabeçalho da aplicação (navegação)
- │    ├── Footer.jsx          # Rodapé da aplicação
- │    ├── TreinoForm.jsx      # Formulário de cadastro de treinos
- │    └── Exercicios/
- │         └── CardExercicio.jsx  # Card individual de exercício
+ ├── components/                  # Componentes reutilizáveis da aplicação
+ │    ├── Exercicios/
+ │    │     └── CardExercicio.jsx   # Card de exibição de exercício
+ │    │
+ │    ├── Conquistas.jsx           # Exibe conquistas do usuário
+ │    ├── Estatisticas.jsx         # Exibe estatísticas dos treinos
+ │    ├── Footer.jsx               # Rodapé da aplicação
+ │    ├── Header.jsx               # Cabeçalho com navegação
+ │    ├── TreinoCard.jsx           # Card de exibição de treino
+ │    └── TreinoForm.jsx           # Formulário de cadastro de treinos
  │
- ├── pages/                   # Páginas principais (rotas)
- │    ├── Cadastro.jsx        # Página de cadastro de treinos
- │    ├── Exercicios.jsx      # Página de listagem de exercícios
- │    └── Favoritos.jsx       # Página de exercícios favoritos
+ ├── pages/                       # Páginas principais (rotas)
+ │    ├── Cadastro.jsx            # Página de cadastro de treinos
+ │    ├── Exercicios.jsx          # Página de listagem de exercícios
+ │    ├── Favoritos.jsx           # Página de exercícios favoritos
+ │    ├── Home.jsx                # Página inicial
+ │    └── Treinos.jsx             # Página de listagem de treinos
  │
- ├── services/                # Comunicação com APIs externas
- │    └── exerciciosService.js # Função para buscar exercícios via Fetch API
+ ├── services/                    # Comunicação com API externa
+ │    └── exerciciosService.js    # Busca exercícios via Fetch API
  │
- ├── utils/                   # Funções auxiliares
- │    └── traducoes.js        # Tradução de nomes de exercícios
+ ├── styles/                      # Estilos globais
+ │    └── GlobalStyles.js         # Reset e estilos globais
  │
- ├── App.jsx                  # Configuração das rotas (React Router)
- └── main.jsx                 # Ponto de entrada da aplicação
-```
-
----
+ ├── utils/                       # Funções auxiliares
+ │    └── traducoes.js            # Tradução de nomes de exercícios
+ │
+ ├── App.jsx                      # Componente principal da aplicação
+ ├── main.jsx                     # Ponto de entrada (ReactDOM)
+ └── routes.jsx                   # Configuração de rotas (React Router)
 
 ## ⚙️ Dependências Utilizadas
 
